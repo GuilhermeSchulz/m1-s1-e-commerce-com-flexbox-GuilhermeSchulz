@@ -1,0 +1,138 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+    box-sizing: border-box;
+    background: #F5F5F5;
+}
+
+.container{
+    max-width: 1556px;
+    margin: 0 auto; /* Centralizando o conteúdo*/
+  }
+
+  .menu {
+    width: 100%;
+    background: #ffffff;
+    box-shadow: 0px 4px 30px -10px rgba(0, 0, 0, 0.1);
+  }
+
+  .menu-flex {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+
+  .menu-column {
+    display: flex;
+    align-items: center;
+    width: 50%;
+    justify-content: flex-start;
+  }
+
+  .menu-column.menu-second-column {
+    justify-content: flex-end;
+  }
+
+  .menu-nav ul {
+    display: flex;
+    list-style: none;
+    gap: 10px; /* Vamos utilizar essa propriedade do flex para colocar um espaçamento entre os elementos*/
+  }
+
+  .menu-nav ul li a {
+    text-decoration: none;
+    color: #585e65;
+  }
+
+  .menu-link-button {
+    text-decoration: none;
+    height: 48px;
+    background-color: #4c6ef5;
+    color: #fff;
+    padding: 0 32px;
+    display: flex;
+    align-items: center;
+    border-radius: 4px;
+  }
+
+  .produtos{
+    display:flex;
+
+    width: 100%;
+    max-width: 100%;
+    flex-flow: row wrap;
+    gap: 10px;
+    justify-content: space-between;
+
+
+  }
+
+  .produtos_container{
+    text-align: center;
+    display: flexbox;
+    box-sizing: border-box;
+    padding: 20px;
+    height: 500px;
+    width: 24%;
+    max-width: 374px;
+    min-width: 320px;
+    border-radius: 8px;
+    background-color: #ffffff;
+    margin-bottom: 20px;
+  }
+
+
+
+  .produtos_botoes{
+    
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    padding: 10px 0;
+    background-color: #4c6ef5;
+    color: #fff;
+    border-radius: 8px;
+    border: none;
+    width: 100%;
+    
+  }
+
+.produtos_imagens{
+    height: 207px;
+    width: 282px;
+    max-width: 80%;
+    margin-top: 10px;
+    max-height: 207px;
+    object-fit: contain;
+    margin-bottom: 46px;
+}
+
+.produtos_imagens_phone{
+    max-width: 282px;
+    max-height: 207px;
+    padding: 25px;
+    object-fit: contain;
+    margin-bottom: 46px;
+}
+
+  .produtos_nome{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 28px;
+    text-align: left;
+    
+
+  }
+
+  .produtos_preco{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 28px;
+    text-align: left;
+    padding: 5px 0;
+
+
+  }
